@@ -1,0 +1,120 @@
+body {
+    background: #e7e7e7;
+}
+
+.freeSpace {
+    height: 60px;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-right: 15px;
+    margin-top: 23px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.navbar-default {
+    border-radius: unset;
+    height: 90px;
+    /* margin-bottom: 30px!important; */
+}
+
+.navbar-brand>img {
+    width: 176px;
+    position: absolute;
+    top: 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    margin-top: 17px;
+    border: solid 2px;
+    background: #f47b20;
+    transition: all .5s;
+}
+
+span {
+    position: relative;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 600;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #111;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all .3s ease;
+}
+
+svg:hover,
+svg:before {
+    width: 100%;
+    background: rgba(#FFAB9D, 1);
+}
+
+svg {
+    transform: translateX(0);
+}
+
+svg:active {
+    transform: scale(.96);
+}
+
+footer {
+    padding: 5px;
+    text-align: center;
+    background: #323332;
+    margin: 10px 0 0 0;
+}
+
+footer p {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.example_e {
+    border: none;
+    background: #f47b20;
+    color: #ffffff !important;
+    font-weight: 500;
+    padding: 16px;
+    margin-top: 19px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+
+.example_e:hover,
+.example_e:active {
+    color: #404040 !important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    text-decoration: unset;
+    background: none;
+    box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.3s ease 0s;
+}
